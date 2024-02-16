@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+section .imgBox{
+    position: relative;
+    left: 100px;
+    width:50%;
+    height: 700px;
+    background: url('form2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+section .contentBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 700px;
+    background-color: rgb(34, 25, 25);
+}
+
+section .contentBox .formBox h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+label{
+    color: rgb(209,169,126);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inputBx{
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+.inputBx input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid  rgb(209,169,126);
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #607d8b;
+    outline: none;
+    background-color:transparent;
+}
+
+.inputBx input[type="submit"]{
+    margin-top: 30px;
+    padding: 10px 5px;
+    width: 150px;
+    background-color: #FA1;
+    color: white;
+    outline: none;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.inputBx input[type="submit"]:hover{
+  background-color: rgba(255,172,17,0.76);
+}
+
+div .remember{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+div .inputBx p{
+    color:rgba(255,172,17,0.76);
+}
+
+
+.container {
+    display: flex;
+}
+
+.circle {
+    width: 30px;
+    color: rgb(34, 25, 25);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    background-color:#fff;
+    border-radius: 50%; 
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.circleparent {
+    position: relative; 
+}
+
+.circleparent .text {
+    position: absolute;
+    top: 50%;
+    left: calc(100% -100%); /* Pour Placer le texte à droite du cercle spécial */
+    transform: translateY(-100%); /* Pour Centrer verticalement */
+    color:  rgb(34, 25, 25);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.circle.special {
+    border-radius: 90%; /* Pour changer le border-radius du cercle spécial */
+    background-color:  rgb(34, 25, 25); /* Pour changer la couleur de fond du cercle spécial */
+    color: #fff;
+}
+
+.circleparent button{
+    border-radius:300px;
+    width: 100%;
+    background-color: rgba(255,172,17,0.76);
+}
+
+
+
